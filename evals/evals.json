@@ -1,0 +1,59 @@
+{
+  "skill_name": "animated-svg-studio",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a standalone looping SVG that explains a router distributing three incoming requests to three workers. Use a restrained editorial style, 750×720 viewBox, a 6-second synchronized timeline, and no JavaScript. Save the SVG, a browser preview, and a validation report.",
+      "expected_output": "A portable SMIL SVG and preview that clearly sequence request arrival, routing, and worker activity.",
+      "files": [],
+      "expectations": [
+        "The output includes a standalone SVG with a 750 by 720 viewBox, title, and description.",
+        "The SVG uses declarative SMIL animation and contains no script or inline event handlers.",
+        "Related animations use a synchronized 6-second timeline.",
+        "A self-contained HTML preview is generated.",
+        "The pure-svg validation report contains zero errors."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Build a reusable React TypeScript component for an animated four-step onboarding flow. It may render more than once on a page, needs play/pause/replay controls, honors reduced motion, and accepts labels as props. Include a simple usage example and validate any extracted SVG reference file.",
+      "expected_output": "A reusable TSX component with collision-safe SVG IDs, accessible controls, reduced-motion behavior, and example usage.",
+      "files": [],
+      "expectations": [
+        "The React component uses TypeScript props for labels and playback configuration.",
+        "Any SVG definition IDs are unique per component instance.",
+        "Play, pause, and replay controls are keyboard-accessible.",
+        "The component honors prefers-reduced-motion or an equivalent explicit setting.",
+        "The output includes a usage example and no unnecessary animation dependency."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Make a WeChat-compatible animated SVG explainer showing a document moving through review, revision, and approval. It should loop passively, use a static raster background URL supplied as https://example.com/background.jpg, and remain understandable if animation freezes. Produce source, preview, and a WeChat-profile compatibility report.",
+      "expected_output": "A conservative inline SMIL SVG that uses the supplied image URL, avoids unsupported web features, and has a useful first frame.",
+      "files": [],
+      "expectations": [
+        "The SVG contains no JavaScript, foreignObject, CSS keyframes, transitions, or inline event handlers.",
+        "The passive loop uses animate or animateTransform with an intentional synchronized duration.",
+        "The supplied raster URL is used and the external-resource caveat is reported.",
+        "The first frame communicates the workflow even if animation does not play.",
+        "The WeChat validation report contains zero errors."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Inspect and repair the supplied broken.svg for use as a standalone animated SVG. Preserve its visual intent, fix duplicate IDs and broken references, add accessibility metadata and reduced-motion consideration, then provide before/after validation reports and a preview.",
+      "expected_output": "A minimally changed repaired SVG with documented fixes, clean validation, and a preview.",
+      "files": [
+        "evals/files/broken.svg"
+      ],
+      "expectations": [
+        "The original input file is preserved and a repaired copy is created.",
+        "Duplicate IDs and unresolved references are fixed.",
+        "The repaired SVG includes a viewBox, title, and description.",
+        "Before and after validation reports demonstrate the improvement.",
+        "The repaired pure-svg validation report contains zero errors."
+      ]
+    }
+  ]
+}

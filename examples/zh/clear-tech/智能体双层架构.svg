@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 520" role="img" aria-labelledby="title desc" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <title id="title">智能体双层架构</title>
+  <desc id="desc">群聊和代码平台中的请求进入路由层，再依次分派给三个并行工作智能体。</desc>
+  <rect width="750" height="520" rx="24" fill="#F4F7FB"/>
+  <text x="44" y="56" font-size="25" font-weight="700" fill="#182230">智能体 · 双层架构</text>
+  <text x="44" y="84" font-size="14" fill="#65758B">路由层保持连续，工作层并行执行</text>
+  <g fill="none" stroke="#C8D4E5" stroke-width="5" stroke-linecap="round">
+    <path d="M168 170H284"/><path d="M168 242H284"/>
+    <path d="M456 206C510 206 510 140 560 140"/><path d="M456 206H560"/><path d="M456 206C510 206 510 336 560 336"/>
+  </g>
+  <g transform="translate(42 136)"><rect width="126" height="58" rx="14" fill="#FFFFFF" stroke="#C8D4E5"/><circle cx="24" cy="29" r="8" fill="#3267D6"/><text x="43" y="35" font-size="16" fill="#34445A">群聊消息</text></g>
+  <g transform="translate(42 208)"><rect width="126" height="58" rx="14" fill="#FFFFFF" stroke="#C8D4E5"/><circle cx="24" cy="29" r="8" fill="#8B67C9"/><text x="43" y="35" font-size="16" fill="#34445A">代码评论</text></g>
+  <g transform="translate(284 148)"><rect width="172" height="116" rx="22" fill="#182230"/><text x="86" y="50" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">Router</text><text x="86" y="78" text-anchor="middle" font-size="14" fill="#C8D4E5">对外答话 · 分派任务</text><animateTransform attributeName="transform" additive="sum" type="scale" values="1;1;1.05;1;1" keyTimes="0;.16;.22;.3;1" dur="6s" repeatCount="indefinite"/></g>
+  <g>
+    <g transform="translate(560 98)"><rect width="146" height="84" rx="18" fill="#E5ECF7" stroke="#D9E2EF"/><circle cx="24" cy="25" r="7" fill="#238A73"/><text x="42" y="31" font-size="16" font-weight="650" fill="#182230">Worker 1</text><text x="24" y="59" font-size="13" fill="#65758B">分析需求</text><animate attributeName="opacity" values=".4;.4;1;1;.4" keyTimes="0;.25;.32;.46;1" dur="6s" repeatCount="indefinite"/></g>
+    <g transform="translate(560 196)"><rect width="146" height="84" rx="18" fill="#E5ECF7" stroke="#C8D4E5"/><circle cx="24" cy="25" r="7" fill="#3267D6"/><text x="42" y="31" font-size="16" font-weight="650" fill="#182230">Worker 2</text><text x="24" y="59" font-size="13" fill="#65758B">执行修改</text><animate attributeName="opacity" values=".4;.4;1;1;.4" keyTimes="0;.42;.49;.63;1" dur="6s" repeatCount="indefinite"/></g>
+    <g transform="translate(560 294)"><rect width="146" height="84" rx="18" fill="#E5ECF7" stroke="#C8D4E5"/><circle cx="24" cy="25" r="7" fill="#8B67C9"/><text x="42" y="31" font-size="16" font-weight="650" fill="#182230">Worker 3</text><text x="24" y="59" font-size="13" fill="#65758B">验证结果</text><animate attributeName="opacity" values=".4;.4;1;1;.4" keyTimes="0;.59;.66;.8;1" dur="6s" repeatCount="indefinite"/></g>
+  </g>
+  <g data-motion="optional"><circle r="9" fill="#3267D6"><animate attributeName="cx" values="168;284;456;560" keyTimes="0;.2;.3;.4" dur="6s" repeatCount="indefinite"/><animate attributeName="cy" values="170;206;206;140" keyTimes="0;.2;.3;.4" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.37;.43;1" dur="6s" repeatCount="indefinite"/></circle><circle r="9" fill="#238A73"><animate attributeName="cx" values="168;284;456;560" keyTimes="0;.38;.48;.58" dur="6s" repeatCount="indefinite"/><animate attributeName="cy" values="242;206;206;238" keyTimes="0;.38;.48;.58" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.33;.38;.55;.61;1" dur="6s" repeatCount="indefinite"/></circle></g>
+  <g transform="translate(42 430)"><rect width="664" height="50" rx="14" fill="#FFFFFF" stroke="#C8D4E5"/><text x="24" y="31" font-size="14" fill="#34445A">人只和 Router 交互，具体任务由 Worker 在独立上下文中推进。</text></g>
+</svg>

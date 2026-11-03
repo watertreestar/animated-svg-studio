@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300">
+  <defs>
+    <linearGradient id="accent"><stop offset="0" stop-color="#e66"/><stop offset="1" stop-color="#66e"/></linearGradient>
+  </defs>
+  <rect id="card" x="40" y="70" width="180" height="140" rx="18" fill="url(#accent)"/>
+  <rect id="card" x="380" y="70" width="180" height="140" rx="18" fill="url(#missing-gradient)"/>
+  <circle cx="110" cy="140" r="14" fill="white">
+    <animate attributeName="cx" values="110;490" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

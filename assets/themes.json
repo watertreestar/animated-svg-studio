@@ -1,0 +1,42 @@
+{
+  "default-editorial": {
+    "name": "暖色编辑",
+    "description": "默认主题。适合公众号技术文章、架构图和长文配图。",
+    "tokens": {"paper":"#FBF8F1","ink":"#1E1C19","muted":"#8F887D","accent":"#CF4436","surface":"#EDE6D8","body":"#47423B","line":"#D8D0C1","softLine":"#D2C9B8","secondary":"#5E7F5A","tertiary":"#B08A4E","white":"#FFFFFF"}
+  },
+  "ink-paper": {
+    "name": "水墨纸张",
+    "description": "克制、文化感强，适合方法论、知识图解和中文叙事。",
+    "tokens": {"paper":"#F4F0E6","ink":"#20211F","muted":"#77766F","accent":"#9E3B32","surface":"#E4DED0","body":"#44453F","line":"#CBC3B4","softLine":"#D8D1C4","secondary":"#53675A","tertiary":"#8B7045","white":"#FFFEFA"}
+  },
+  "clear-tech": {
+    "name": "清透科技",
+    "description": "清晰、理性、现代，适合云平台、AI、API 和软件架构。",
+    "tokens": {"paper":"#F4F7FB","ink":"#182230","muted":"#65758B","accent":"#3267D6","surface":"#E5ECF7","body":"#34445A","line":"#C8D4E5","softLine":"#D9E2EF","secondary":"#238A73","tertiary":"#8B67C9","white":"#FFFFFF"}
+  },
+  "dark-terminal": {
+    "name": "暗色终端",
+    "description": "高对比开发者风格，适合代码执行、Agent 工具链和系统监控。",
+    "tokens": {"paper":"#151918","ink":"#F1F4EE","muted":"#94A09A","accent":"#6FD6A8","surface":"#252B29","body":"#C8D0CB","line":"#3A4541","softLine":"#303936","secondary":"#E6B85C","tertiary":"#7CA7E8","white":"#0F1211"}
+  },
+  "fresh-green": {
+    "name": "自然生长",
+    "description": "柔和、友好、有生命力，适合教育、协作、成长和可持续主题。",
+    "tokens": {"paper":"#F4F8F1","ink":"#213128","muted":"#6F8074","accent":"#4E8B61","surface":"#E1ECDE","body":"#3E5547","line":"#C7D8C4","softLine":"#D8E4D4","secondary":"#C47B49","tertiary":"#7B72B4","white":"#FFFFFF"}
+  },
+  "bold-signal": {
+    "name": "强信号",
+    "description": "直接、有冲击力，适合发布会、重点结论、风险和决策展示。",
+    "tokens": {"paper":"#FFF7F2","ink":"#241B19","muted":"#806D68","accent":"#E3422F","surface":"#F5DED5","body":"#51403C","line":"#E5C5BA","softLine":"#F0D9D1","secondary":"#216E68","tertiary":"#C18A24","white":"#FFFFFF"}
+  },
+  "crimson-conference": {
+    "name": "暗红大会",
+    "description": "沿用默认布局，只采用极简演讲主题的浅灰白背景、近黑文字、暗红强调和克制边框。",
+    "tokens": {"paper":"#F8F8F8","ink":"#0D0106","muted":"#71696C","accent":"#7A1822","surface":"#F1E9EA","body":"#373234","line":"#D8CCCE","softLine":"#E8E1E3","secondary":"#A64149","tertiary":"#B96862","white":"#FFFFFF"}
+  },
+  "orange-blue-architecture": {
+    "name": "橙蓝架构",
+    "description": "参考 BeAPT 演示的纯白架构图风格：Poppins 字体、深灰正文、亮橙强调、海军蓝辅助和蓝灰连线。",
+    "tokens": {"paper":"#FFFFFF","ink":"#181818","muted":"#6E6E6E","accent":"#F26522","surface":"#F6F6F6","body":"#393A34","line":"#8293A0","softLine":"#E5E7EB","secondary":"#003049","tertiary":"#13ACCC","white":"#FFFFFF"}
+  }
+}
