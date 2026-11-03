@@ -4,6 +4,26 @@
 
 一个可移植的 Agent Skill，用于设计、生成、验证、预览和适配动画 SVG。支持 OpenCode / OpenChamber、Claude Code、Codex、独立 SVG、Web、React、Vue、微信公众号等受限富文本环境，以及静态回退方案。
 
+## 一键安装
+
+```bash
+npx skills add watertreestar/animated-svg-studio
+```
+
+全局安装并跳过交互确认：
+
+```bash
+npx skills add watertreestar/animated-svg-studio --skill animated-svg-studio -g -y
+```
+
+安装后可用以下命令确认：
+
+```bash
+npx skills list -g
+```
+
+> Windows PowerShell 如果因执行策略无法运行 `npx.ps1`，请使用 `npx.cmd skills add watertreestar/animated-svg-studio`。
+
 ## 特性
 
 - 默认生成可独立运行的 SVG + SMIL，并配套自包含 HTML 预览。
@@ -19,7 +39,13 @@
 
 ### 安装为 Agent Skill
 
-将整个目录复制或链接到 Agent 的 Skill 目录：
+推荐使用 Skills CLI 自动识别并安装到当前 Agent：
+
+```bash
+npx skills add watertreestar/animated-svg-studio
+```
+
+也可以将整个目录手动复制或链接到 Agent 的 Skill 目录：
 
 ```text
 OpenCode / OpenChamber  .agents/skills/animated-svg-studio/

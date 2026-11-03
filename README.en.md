@@ -4,6 +4,26 @@
 
 A portable Agent Skill for designing, generating, validating, previewing, and adapting animated SVGs. It supports OpenCode / OpenChamber, Claude Code, Codex, standalone SVG, the web, React, Vue, constrained rich-text publishers such as WeChat, and static fallback workflows.
 
+## One-command installation
+
+```bash
+npx skills add watertreestar/animated-svg-studio
+```
+
+Install globally without confirmation prompts:
+
+```bash
+npx skills add watertreestar/animated-svg-studio --skill animated-svg-studio -g -y
+```
+
+Verify the installation:
+
+```bash
+npx skills list -g
+```
+
+> If Windows PowerShell blocks `npx.ps1` because of its execution policy, run `npx.cmd skills add watertreestar/animated-svg-studio` instead.
+
 ## Features
 
 - Generates portable standalone SVG + SMIL with a self-contained HTML preview by default.
@@ -19,7 +39,13 @@ A portable Agent Skill for designing, generating, validating, previewing, and ad
 
 ### Install as an Agent Skill
 
-Copy or link the entire directory into the Skill directory used by your agent:
+The recommended method is to let the Skills CLI detect and install it for the current agent:
+
+```bash
+npx skills add watertreestar/animated-svg-studio
+```
+
+Alternatively, copy or link the entire directory into the Skill directory used by your agent:
 
 ```text
 OpenCode / OpenChamber  .agents/skills/animated-svg-studio/
