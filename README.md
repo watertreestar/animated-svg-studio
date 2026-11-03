@@ -87,6 +87,23 @@ python scripts/optimize_svg.py assets/starter.svg -o starter.min.svg
 
 主题 Token 位于 [`assets/themes.json`](assets/themes.json)，选择规则位于 [`references/themes.md`](references/themes.md)。
 
+## 主题示例矩阵
+
+每套主题使用完全相同的布局和动画时间轴，便于直接比较字体、背景、文字、卡片、连线和强调色。点击缩略图可打开对应 SVG。
+
+| 主题 | 智能体双层架构 | 文档审批流程 | 任务执行状态 |
+|---|---|---|---|
+| **暖色编辑（默认）**<br>`default-theme` | <a href="examples/zh/default-theme/智能体双层架构.svg"><img src="examples/zh/default-theme/智能体双层架构.svg" width="240" alt="暖色编辑：智能体双层架构"></a> | <a href="examples/zh/default-theme/文档审批流程.svg"><img src="examples/zh/default-theme/文档审批流程.svg" width="240" alt="暖色编辑：文档审批流程"></a> | <a href="examples/zh/default-theme/任务执行状态.svg"><img src="examples/zh/default-theme/任务执行状态.svg" width="240" alt="暖色编辑：任务执行状态"></a> |
+| **水墨纸张**<br>`ink-paper` | <a href="examples/zh/ink-paper/智能体双层架构.svg"><img src="examples/zh/ink-paper/智能体双层架构.svg" width="240" alt="水墨纸张：智能体双层架构"></a> | <a href="examples/zh/ink-paper/文档审批流程.svg"><img src="examples/zh/ink-paper/文档审批流程.svg" width="240" alt="水墨纸张：文档审批流程"></a> | <a href="examples/zh/ink-paper/任务执行状态.svg"><img src="examples/zh/ink-paper/任务执行状态.svg" width="240" alt="水墨纸张：任务执行状态"></a> |
+| **清透科技**<br>`clear-tech` | <a href="examples/zh/clear-tech/智能体双层架构.svg"><img src="examples/zh/clear-tech/智能体双层架构.svg" width="240" alt="清透科技：智能体双层架构"></a> | <a href="examples/zh/clear-tech/文档审批流程.svg"><img src="examples/zh/clear-tech/文档审批流程.svg" width="240" alt="清透科技：文档审批流程"></a> | <a href="examples/zh/clear-tech/任务执行状态.svg"><img src="examples/zh/clear-tech/任务执行状态.svg" width="240" alt="清透科技：任务执行状态"></a> |
+| **暗色终端**<br>`dark-terminal` | <a href="examples/zh/dark-terminal/智能体双层架构.svg"><img src="examples/zh/dark-terminal/智能体双层架构.svg" width="240" alt="暗色终端：智能体双层架构"></a> | <a href="examples/zh/dark-terminal/文档审批流程.svg"><img src="examples/zh/dark-terminal/文档审批流程.svg" width="240" alt="暗色终端：文档审批流程"></a> | <a href="examples/zh/dark-terminal/任务执行状态.svg"><img src="examples/zh/dark-terminal/任务执行状态.svg" width="240" alt="暗色终端：任务执行状态"></a> |
+| **自然生长**<br>`fresh-green` | <a href="examples/zh/fresh-green/智能体双层架构.svg"><img src="examples/zh/fresh-green/智能体双层架构.svg" width="240" alt="自然生长：智能体双层架构"></a> | <a href="examples/zh/fresh-green/文档审批流程.svg"><img src="examples/zh/fresh-green/文档审批流程.svg" width="240" alt="自然生长：文档审批流程"></a> | <a href="examples/zh/fresh-green/任务执行状态.svg"><img src="examples/zh/fresh-green/任务执行状态.svg" width="240" alt="自然生长：任务执行状态"></a> |
+| **强信号**<br>`bold-signal` | <a href="examples/zh/bold-signal/智能体双层架构.svg"><img src="examples/zh/bold-signal/智能体双层架构.svg" width="240" alt="强信号：智能体双层架构"></a> | <a href="examples/zh/bold-signal/文档审批流程.svg"><img src="examples/zh/bold-signal/文档审批流程.svg" width="240" alt="强信号：文档审批流程"></a> | <a href="examples/zh/bold-signal/任务执行状态.svg"><img src="examples/zh/bold-signal/任务执行状态.svg" width="240" alt="强信号：任务执行状态"></a> |
+| **暗红大会**<br>`crimson-conference` | <a href="examples/zh/crimson-conference/智能体双层架构.svg"><img src="examples/zh/crimson-conference/智能体双层架构.svg" width="240" alt="暗红大会：智能体双层架构"></a> | <a href="examples/zh/crimson-conference/文档审批流程.svg"><img src="examples/zh/crimson-conference/文档审批流程.svg" width="240" alt="暗红大会：文档审批流程"></a> | <a href="examples/zh/crimson-conference/任务执行状态.svg"><img src="examples/zh/crimson-conference/任务执行状态.svg" width="240" alt="暗红大会：任务执行状态"></a> |
+| **橙蓝架构**<br>`orange-blue-architecture` | <a href="examples/zh/orange-blue-architecture/智能体双层架构.svg"><img src="examples/zh/orange-blue-architecture/智能体双层架构.svg" width="240" alt="橙蓝架构：智能体双层架构"></a> | <a href="examples/zh/orange-blue-architecture/文档审批流程.svg"><img src="examples/zh/orange-blue-architecture/文档审批流程.svg" width="240" alt="橙蓝架构：文档审批流程"></a> | <a href="examples/zh/orange-blue-architecture/任务执行状态.svg"><img src="examples/zh/orange-blue-architecture/任务执行状态.svg" width="240" alt="橙蓝架构：任务执行状态"></a> |
+
+> GitHub 的 README 预览可能只显示静态帧。点击图片打开原始 SVG，或在本地主题总览页中查看完整 SMIL 动画。
+
 ## 示例
 
 打开 [`examples/zh/index.html`](examples/zh/index.html) 可浏览全部中文主题示例。
